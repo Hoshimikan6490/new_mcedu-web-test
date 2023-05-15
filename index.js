@@ -1,17 +1,20 @@
-const express = require('express')　// expressを準備
-const app = express()
-const port = 3000
+//Express フレームワークを読み込む
+const express = require('express');
+const app = express();
+module.exports.app = app;
 
-// express に ejs のテンプレートエンジンを設定
-app.set("view engine", "ejs");
+// ビューエンジンをejsにセットする
+app.set('view engine', 'ejs');
 
-// express に ejs のテンプレートエンジンを設定した場合
-// /views フォルダが index.ejs のデフォルトになります
+const { pas_specify } = require('./file_and_pass_set.js');
 
-app.get("/", function (req, res) {
-  res.render("index"); // これで /views/index.ejs をレンダリング
+//必要なデータを準備
+app.use(express.static('views'));
+app.use('views', express.static('views'));
+
+pas_specify();
+
+// ポート8082をオープンにする
+app.listen(8000, function () {
+  console.log('[NodeJS] Application Listening on Port 8000\n@ https://localhost:8000');
 });
-
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
