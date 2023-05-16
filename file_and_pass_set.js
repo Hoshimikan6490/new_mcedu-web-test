@@ -14,11 +14,11 @@ const pas_specify = function () {
   });
 
   app.get('/default/about_makecode/what_is_makecode', function (req, res) {
-    res.render(`pages/default/about_makecode/what_is_makecode`);
+    res.render(`pages/default/about_makecode-what_is_makecode`);
   });
 
   app.get('/default/about_makecode/work_of_makecode', function (req, res) {
-    res.render(`pages/default/about_makecode/work_of_makecode`);
+    res.render(`pages/default/about_makecode-work_of_makecode`);
   });
 
   app.get('/default/edu_only_contents', function (req, res) {
