@@ -15,6 +15,6 @@ app.use('views', express.static('views'));
 pas_specify();
 
 // ポート8082をオープンにする
-app.listen(8000, function () {
+app.listen(8001, function () {
   console.log('[NodeJS] Application Listening on Port 8000\n@ http://localhost:8000');
 });
