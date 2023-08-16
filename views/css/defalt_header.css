@@ -16,13 +16,15 @@
 input[type='checkbox'] {
   display: none;
 }
+
 .logo {
-  font-size: 3vw;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1;
   color: #333;
   padding: 15px;
 }
+
 .menu {
   position: fixed;
   box-sizing: border-box;
