@@ -16,21 +16,9 @@ h1 {
 }
 
 h2 {
-  color: #7F1146;
+  color: #7f1146;
 }
 
 .kaigyo span {
   display: inline-block;
-}
-
-.body_contents {
-  display: flex;
-}
-
-.left_contents {
-  width: 50%;
-}
-
-.right_contents {
-  width: 20%;
 }
