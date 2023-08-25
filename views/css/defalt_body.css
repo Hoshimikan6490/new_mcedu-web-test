@@ -41,9 +41,6 @@ main {
 .main_contents p {
   text-indent: 10px;
 }
-.main_contents table {
-  margin-left: 50px;
-}
 .side_bar {
   width: 220px;
   color: #5d627b;

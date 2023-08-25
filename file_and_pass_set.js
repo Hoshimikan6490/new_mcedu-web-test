@@ -9,6 +9,10 @@ const pas_specify = function () {
     res.render(`pages/information/important_about_this-site`);
   });
 
+  app.get('/information/all_topics', function (req, res) {
+    res.render(`pages/information/all_topics`);
+  });
+
   app.get('/database/blockID_and_more', function (req, res) {
     res.render(`pages/database/blockID_and_more`);
   });
