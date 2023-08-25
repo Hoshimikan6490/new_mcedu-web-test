@@ -1,6 +1,12 @@
 const { app } = require('./index.js');
 
 const pas_specify = function () {
+  app.get('information/about_same_domain_site', function (req, res) {
+    res.render(`pages/information/about_same_domain_site`);
+  });
+  app.get('information/important_about_this-site', function (req, res) {
+    res.render(`pages/information/important_about_this-site`);
+  });
   app.get('/database/blockID_and_more', function (req, res) {
     res.render(`pages/database/blockID_and_more`);
   });
