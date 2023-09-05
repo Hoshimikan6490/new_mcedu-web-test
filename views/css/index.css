@@ -1,0 +1,27 @@
+.famous_articles {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.popular_articles {
+  margin: 10px;
+  width: 35%;
+  display: flex;
+}
+
+.popular_articles img {
+  width: 100%;
+}
+
+p.article_name {
+  text-indent: 0px;
+  width: 50%;
+}
+
+@media screen and (max-width: 765px) {
+  .famous_articles {
+    max-width: 544px;
+  }
+}

@@ -42,7 +42,6 @@ main {
   text-indent: 10px;
 }
 .side_bar {
-  width: 220px;
   color: #5d627b;
   background: white;
   border-top: solid 5px #5d627b;
@@ -63,6 +62,5 @@ main {
   }
   .side_bar {
     margin-top: 10px;
-    width: 100%;
   }
 }
