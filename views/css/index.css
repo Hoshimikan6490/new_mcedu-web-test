@@ -1,5 +1,4 @@
 .famous_articles {
-  display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
   justify-content: space-between;
@@ -7,21 +6,45 @@
 
 .popular_articles {
   margin: 10px;
-  width: 35%;
+  width: 45%;
   display: flex;
 }
 
 .popular_articles img {
-  width: 100%;
+  width: 75%;
 }
 
-p.article_name {
+.article_name {
+  margin-left: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.article_name h3 {
   text-indent: 0px;
-  width: 50%;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
 }
 
 @media screen and (max-width: 765px) {
   .famous_articles {
     max-width: 544px;
+    display: block;
+    margin: auto;
+  }
+
+  .popular_articles {
+    width: 100%;
+  }
+
+  .popular_articles img {
+    width: 50%;
+  }
+
+  .article_name {
+    width: 50%;
+    margin: 0 auto;
   }
 }
