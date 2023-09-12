@@ -3,7 +3,7 @@
 }
 
 .header {
-  background-color: gray;
+  background-color: rgb(200, 200, 200);
   position: fixed;
   z-index: 100;
   width: 100%;

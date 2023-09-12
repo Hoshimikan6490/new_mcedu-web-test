@@ -6,8 +6,15 @@
 
 .popular_articles {
   margin: 10px;
-  width: 45%;
   display: flex;
+}
+
+.article_link {
+  margin: 10px;
+  display: flex;
+  width: 45%;
+  color: black;
+  text-decoration-line: none;
 }
 
 .popular_articles img {
@@ -36,7 +43,7 @@
     margin: auto;
   }
 
-  .popular_articles {
+  .article_link {
     width: 100%;
   }
 

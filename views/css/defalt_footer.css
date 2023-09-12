@@ -1,0 +1,21 @@
+footer {
+  background-color: rgb(200, 200, 200);
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.footer_contents {
+  display: flex;
+  max-width: 1600px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer_links {
+  width: 50%;
+}
+
+.footer_about_this {
+  width: 50%;
+}

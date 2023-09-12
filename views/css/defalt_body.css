@@ -21,15 +21,11 @@ main {
 
 .wrapper {
   display: flex;
-  max-width: 1600px;
-  min-width: 500px;
-  margin: 0 auto;
-  padding: 0 20px;
+
 }
 .main_contents {
   flex: 1;
   margin: 0 20px;
-  color: #5d627b;
   background: white;
   border-top: solid 5px #5d627b;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
@@ -49,6 +45,26 @@ main {
   padding: 10px;
 }
 
+.side_bar h2 {
+  margin-top: 5px;
+}
+
+.profile {
+  width: 100%;
+  text-align: center;
+}
+
+a.profile_link {
+  display: block;
+  width: 100%;
+  color: black;
+  text-decoration-line: none;
+}
+
+.profile img {
+  width: 70px;
+}
+
 @media screen and (max-width: 765px) {
   .wrapper {
     display: block;
@@ -62,5 +78,10 @@ main {
   }
   .side_bar {
     margin-top: 10px;
+  }
+
+  a.profile_link {
+    width: 50%;
+    margin: auto;
   }
 }
